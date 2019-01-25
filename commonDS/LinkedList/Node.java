@@ -10,5 +10,7 @@ public class Node {
 
     Node(int data) {
         this.data = data;
+        next = null;
+        prev = null;
     }
 }
